@@ -1,0 +1,22 @@
+main{
+    .fontstyle{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .card-text{
+        text-align: center;
+        font-size: 23px;
+        font-weight: bold;
+    }
+    .imgHombre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content:space-between
+        }
+        .text-center{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }  
+}

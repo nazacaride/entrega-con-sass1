@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2CCCAE;
+}
+
+.colorNav {
+  background-color: #005C53;
+}
+
+main .fontstyle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+main .card-text {
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+main .imgHombre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+}
+main .text-center {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.paddingTB {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  background-color: #005C53;
+  justify-content: space-between;
+  padding: 20px;
+  /* width: 100%; */
+}
+footer .infoFoot {
+  color: white;
+}
+footer .infoFoot footer h5 {
+  display: flex;
+  position: relative;
+  top: 10px;
+}
+footer img {
+  display: flex;
+  display: inline;
+  border-radius: 40px;
+  height: 30px;
+  position: relative;
+}
+footer img:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */

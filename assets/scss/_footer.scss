@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    background-color: #005C53;
+    justify-content: space-between;
+    padding: 20px;
+    
+    /* width: 100%; */
+    .infoFoot{
+        color: white;
+        footer h5{
+            display: flex;
+            position: relative;
+            top: 10px;
+        }
+    }
+     img{
+        display: flex;
+        display: inline;
+        border-radius: 40px;
+        height: 30px;
+        position: relative; 
+        
+        &:hover{
+            transform: scale(1.2);
+           }
+         }
+
+}
